@@ -1,0 +1,48 @@
+﻿@font-face{
+    font-family:'web_Yekan';
+    src:url('../fonts/web_Yekan/web_Yekan.eot');
+    src:url('../fonts/web_Yekan/web_Yekan.eot') format('eot'),
+        url('../fonts/web_Yekan/web_Yekan.woff') format('woff'),
+        url('../fonts/web_Yekan/web_Yekan.ttf') format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: 'samim';
+    src: url('../fonts/samim/samim-FD.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lotus_web';
+    src: url('../fonts/lotus/lotus-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lotus_web';
+    src: url('../fonts/lotus/lotus-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IRANSans';
+    src: url('../fonts/iransans/IRANSans-web.eot');
+    src: url('../fonts/iransans/IRANSans-web.eot') format('embedded-opentype'),
+        url('../fonts/iransans/IRANSans-web.woff2') format('woff2'),
+        url('../fonts/iransans/IRANSans-web.woff') format('woff'),
+        url('../fonts/iransans/IRANSans-web.ttf') format('truetype');
+    font-weight: normal;
+}
+
+body, .text-persian {
+    font-family: 'IRANSans',Tahoma,"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.form-control, select, button, input {
+    font-family: 'IRANSans',Tahoma,"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
